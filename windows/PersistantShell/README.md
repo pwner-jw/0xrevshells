@@ -20,7 +20,7 @@ sudo apt install mingw-w64 -y
 
 To compile the reverse shell on **Kali Linux**:
 ```sh
-i686-w64-mingw32-gcc enhanced_shell.c -o shell.exe -lws2_32
+i686-w64-mingw32-gcc shell.c -o shell.exe -lws2_32
 ```
 This generates `shell.exe`, a Windows-compatible executable.
 
